@@ -1,0 +1,14 @@
+[package]
+name = "Duno"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Std = "0x11a3508400135a5bcf3b666badf9bb96d492bf4787a65a76c73f1bffe181b9e8"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
